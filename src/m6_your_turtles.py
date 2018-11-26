@@ -38,4 +38,11 @@ yellow_turtle.speed = 15
 
 size = 200
 
-for i in range()
+for i in range(10):
+    yellow_turtle.draw_circle(size)
+    yellow_turtle.pen_up()
+    yellow_turtle.left(180)
+    yellow_turtle.forward(10)
+    yellow_turtle.pen_down()
+
+    size = size - 10
