@@ -11,7 +11,7 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Write code that accomplishes the following (and ONLY the following),
 #   in the order listed:
 #
@@ -61,3 +61,5 @@ turtle.pen_down()
 turtle.pen = rg.Pen('green', 10)
 
 turtle.backward(150)
+
+window.close_on_mouse_click()
