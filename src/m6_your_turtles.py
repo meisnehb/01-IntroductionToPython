@@ -46,3 +46,5 @@ for i in range(10):
     yellow_turtle.pen_down()
 
     size = size - 10
+
+window.close_on_mouse_click()
